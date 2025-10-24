@@ -1,0 +1,105 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.pnp.*
+.pnp.js
+
+# Output of build process
+.next/
+out/
+dist/
+build/
+.cache/
+.vercel/
+.turbo/
+nx-cache/
+tmp/
+.temp/
+coverage/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+*.log.*
+*.out
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+bower_components/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# TypeScript
+*.tsbuildinfo
+
+# Next.js specific
+.next/
+out/
+*.next
+.next/cache/
+.next/static/
+
+# Testing
+coverage/
+jest-cache/
+jest-stare/
+.vitest/
+*.lcov
+
+# Build Artifacts
+*.tgz
+*.zip
+
+# Local environment settings
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Turborepo / Nx monorepo cache
+.turbo/
+nx-out/
+apps/**/.next/
+packages/**/.next/
+apps/**/dist/
+packages/**/dist/
+
+# Generated files
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
